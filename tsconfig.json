@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "CommonJS", // <-- change from NodeNext to CommonJS
+        "moduleResolution": "node", // <-- change to node
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        },
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "server.ts",
+        "src"
+    ]
+}
