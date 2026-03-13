@@ -1,6 +1,6 @@
-# SwatchLabs Backend
+# express-ts-template
 
-A minimal **Express + TypeScript backend template** with hot reload and `@` path alias support. Designed for fast API development and scalability.
+A minimal **Express + TypeScript backend template** with hot reload and `@` path alias support. Perfect for fast API development, prototyping, or starting production-ready projects.
 
 ---
 
@@ -8,23 +8,23 @@ A minimal **Express + TypeScript backend template** with hot reload and `@` path
 
 This project provides a clean, professional backend setup with:
 
-- **TypeScript** for type safety  
-- **Express** for routing and API endpoints  
-- **`@` path aliases** for cleaner imports (`@/index`)  
-- **Hot reload** using `ts-node-dev`  
-- One-line default export for the Express app: `export default express()`  
+- **TypeScript** for type safety and better code quality  
+- **Express** for fast routing and API endpoints  
+- **`@` path aliases** for clean imports (`@/index`)  
+- **Hot reload** using `ts-node-dev` or `tsx`  
+- One-line default export for the Express app: `export default express()`
 
-It is ideal for small projects, APIs, or as a starting template for larger TypeScript backends.
+It’s ideal as a **starter template** for APIs or larger TypeScript backend projects.
 
 ---
 
 ## 🛠 Requirements
 
-- **Node.js** v18+  
-- **npm** v9+  
+- **Node.js** v18 or higher  
+- **npm** v9 or higher  
 - **TypeScript**  
 - **ts-node-dev** (for development)  
-- **tsconfig-paths** (for alias support)  
+- **tsconfig-paths** (for alias support)
 
 ---
 
